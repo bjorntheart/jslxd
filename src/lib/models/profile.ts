@@ -1,14 +1,14 @@
 export interface Profile {
-    name: string;
-    description: string;
-    config: {
-        [key: string]: string,
+  name: string;
+  description: string;
+  config: {
+    [key: string]: string;
+  };
+  devices: {
+    [key: string]: {
+      path: string;
+      type: string;
     };
-    devices: {
-        [key: string]: {
-            path: string,
-            type: string;
-        };
-    };
-    used_by: string[];
+  };
+  used_by: string[];
 }
