@@ -56,7 +56,9 @@
   "engines": {
     "node": ">=12.16.3 <13"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
   "devDependencies": {
     "@types/node": "^13.13.4",
     "ava": "^3.8.1",
