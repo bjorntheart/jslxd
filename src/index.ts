@@ -1,2 +1,2 @@
-export * from './lib/lxd';
+export * from './lib/jslxd';
 export * from './lib/models/index';

@@ -1,5 +1,5 @@
 import test from 'ava';
-import { Lxd } from './lxd';
+import { Lxd } from './jslxd';
 
 test('should exist', async (t) => {
   const client = new Lxd();

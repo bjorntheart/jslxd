@@ -1,13 +1,13 @@
 {
-  "name": "js-lxd-api",
+  "name": "jslxd",
   "version": "1.0.3",
   "description": "A Javascript library for the LXD API",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "bugs": "https://github.com/bjorntheart/js-lxd-api/issues",
-  "repository": "https://github.com/bjorntheart/js-lxd-api",
-  "author": "Bjorn Theart <bjorntheart@gmail.com> (https://github.com/bjorntheart/js-lxd-api)",
+  "bugs": "https://github.com/bjorntheart/jslxd/issues",
+  "repository": "https://github.com/bjorntheart/jslxd",
+  "author": "Bjorn Theart <bjorntheart@gmail.com> (https://github.com/bjorntheart/jslxd)",
   "license": "MIT",
   "keywords": [
     "lxd",
