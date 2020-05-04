@@ -62,10 +62,10 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
-				<a href="#digitalocean-js" id="digitalocean-js" style="color: inherit; text-decoration: none;">
-					<h1>DigitalOcean JS</h1>
+				<a href="#lxd-api-javascript-wrapper" id="lxd-api-javascript-wrapper" style="color: inherit; text-decoration: none;">
+					<h1>LXD API javascript wrapper</h1>
 				</a>
-				<p><a href="https://travis-ci.org/bjorntheart/js-lxd-api"><img src="https://travis-ci.org/bjorntheart/js-lxd-api.svg?branch=master" alt="Build Status"></a> <a href="https://www.npmjs.com/package/js-lxd-api"><img src="https://img.shields.io/npm/dm/js-lxd-api.svg" alt="npm"></a> <a href="https://www.npmjs.com/package/js-lxd-api"><img src="https://img.shields.io/npm/dt/js-lxd-api.svg" alt="npm"></a> <a href="https://www.npmjs.com/package/js-lxd-api"><img src="https://img.shields.io/npm/v/js-lxd-api.svg" alt="npm"></a></p>
+				<p><a href="https://travis-ci.org/bjorntheart/jslxd"><img src="https://travis-ci.org/bjorntheart/jslxd.svg?branch=master" alt="Build Status"></a> <a href="https://www.npmjs.com/package/jslxd"><img src="https://img.shields.io/npm/dm/jslxd.svg" alt="npm"></a> <a href="https://www.npmjs.com/package/jslxd"><img src="https://img.shields.io/npm/dt/jslxd.svg" alt="npm"></a> <a href="https://www.npmjs.com/package/jslxd"><img src="https://img.shields.io/npm/v/jslxd.svg" alt="npm"></a></p>
 				<p>JavaScript library for the LXD API. For use in Node or the browser.</p>
 				<a href="#goals" id="goals" style="color: inherit; text-decoration: none;">
 					<h2>Goals</h2>
@@ -81,14 +81,14 @@
 					<h2>Usage</h2>
 				</a>
 				<p>To use the library, install from the npm repository.</p>
-				<pre><code class="language-shell"><span class="hljs-meta">$</span><span class="bash"> npm install --save js-lxd-api</span>
+				<pre><code class="language-shell"><span class="hljs-meta">$</span><span class="bash"> npm install --save jslxd</span>
 <span class="hljs-meta">#</span><span class="bash"> Alternatively install with yarn</span>
-<span class="hljs-meta">$</span><span class="bash"> yarn add ls-lxd-api</span></code></pre>
+<span class="hljs-meta">$</span><span class="bash"> yarn add lslxd</span></code></pre>
 				<p>Simply import the client and initialize it with your API token:</p>
-				<pre><code class="language-js"><span class="hljs-keyword">import</span> { Lxd } <span class="hljs-keyword">from</span> <span class="hljs-string">'js-lxd-api'</span>;
+				<pre><code class="language-js"><span class="hljs-keyword">import</span> { Client } <span class="hljs-keyword">from</span> <span class="hljs-string">'jslxd'</span>;
 
 <span class="hljs-keyword">const</span> client = <span class="hljs-keyword">new</span> Client(<span class="hljs-string">'my-api-token'</span>);</code></pre>
-				<p>To see all the services available, check out the <a href="https://bjorntheart.github.io/js-lxd-api/">documentation</a>.</p>
+				<p>To see all the services available, check out the <a href="https://bjorntheart.github.io/jslxd/">documentation</a>.</p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
