@@ -1,6 +1,6 @@
-# DigitalOcean JS
+# LXD API javascript wrapper
 
-[![Build Status](https://travis-ci.org/bjorntheart/js-lxd-api.svg?branch=master)](https://travis-ci.org/bjorntheart/js-lxd-api) [![npm](https://img.shields.io/npm/dm/js-lxd-api.svg)](https://www.npmjs.com/package/js-lxd-api) [![npm](https://img.shields.io/npm/dt/js-lxd-api.svg)](https://www.npmjs.com/package/js-lxd-api) [![npm](https://img.shields.io/npm/v/js-lxd-api.svg)](https://www.npmjs.com/package/js-lxd-api)
+[![Build Status](https://travis-ci.org/bjorntheart/jslxd.svg?branch=master)](https://travis-ci.org/bjorntheart/jslxd) [![npm](https://img.shields.io/npm/dm/jslxd.svg)](https://www.npmjs.com/package/jslxd) [![npm](https://img.shields.io/npm/dt/jslxd.svg)](https://www.npmjs.com/package/jslxd) [![npm](https://img.shields.io/npm/v/jslxd.svg)](https://www.npmjs.com/package/jslxd)
 
 JavaScript library for the LXD API. For use in Node or the browser.
 
@@ -18,17 +18,17 @@ This library was built with a few goals in mind:
 To use the library, install from the npm repository.
 
 ```shell
-$ npm install --save js-lxd-api
+$ npm install --save jslxd
 # Alternatively install with yarn
-$ yarn add ls-lxd-api
+$ yarn add lslxd
 ```
 
 Simply import the client and initialize it with your API token:
 
 ```js
-import { Lxd } from 'js-lxd-api';
+import { Client } from 'jslxd';
 
 const client = new Client('my-api-token');
 ```
 
-To see all the services available, check out the [documentation](https://bjorntheart.github.io/js-lxd-api/).
+To see all the services available, check out the [documentation](https://bjorntheart.github.io/jslxd/).
